@@ -1,0 +1,69 @@
+
+<html>
+
+<head>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<title>FLOOD RESCUE SYSTEM</title>
+</head>
+<style>
+  #main
+  {
+     
+    margin-top: 100px;
+    margin-left: 300px;
+
+
+  }
+</style>
+<body style="background-image:url('static/cover.jpg');";background-repeat:no-repeat;background-size:cover;">
+  <div id="main">
+<form class="form-horizontal" action='/formaction' method="POST">
+    <div id="legend">
+      <p style="margin-left: 180px; font-size:medium;">AI FLOOD RESCUE SYSTEM</p>
+    </div>
+    <div class="control-group">
+      <!-- Username -->
+      <label class="control-label"  for="username">TEMPERATURE</label>
+      <div class="controls">
+        <input type="text"  name="temperature" placeholder="" class="input-xlarge" required>
+      </div>
+    </div>
+ 
+    <div class="control-group">
+      <!-- E-mail -->
+      <label class="control-label" for="email">HUMIDITY</label>
+      <div class="controls">
+        <input type="text"  name="humidity" placeholder="" class="input-xlarge" required>
+      </div>
+    </div>
+ 
+    <div class="control-group">
+      <!-- Password-->
+      <label class="control-label" for="password">ALTITUDE</label>
+      <div class="controls">
+        <input type="text" name="altitude" placeholder="" class="input-xlarge" required>
+      </div>
+    </div>
+ 
+    <div class="control-group">
+      <!-- Password -->
+      <label class="control-label"  for="password_confirm">RAIN</label>
+      <div class="controls">
+        <input type="text" name="rain" placeholder="" class="input-xlarge" required>
+      </div>
+    </div>
+ 
+    <div class="control-group">
+      <!-- Button -->
+      <div class="controls">
+        <button class="btn btn-success">RUN</button>
+      </div>
+      
+      
+    </div>
+</form>
+  </div>
+</body>
+</html>
